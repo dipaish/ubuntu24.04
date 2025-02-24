@@ -4,6 +4,7 @@
       "dockerfile": "Dockerfile",
       "context": "."
     },
+    "remoteUser": "root",
     "settings": {
       // Customize VS Code settings (for example, set the terminal shell)
       "terminal.integrated.shell.linux": "/bin/bash"
@@ -13,6 +14,6 @@
       "ms-python.python",
       "esbenp.prettier-vscode"
     ],
-    "postCreateCommand": "echo 'Welcome to your Ubuntu Codespace!'"
+    "postCreateCommand": "echo 'Welcome to your Ubuntu Codespace! You are logged in as Root so no sudo required'"
   }
   
