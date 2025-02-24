@@ -7,19 +7,24 @@
     "remoteUser": "root",
     "runArgs": [
       "--cap-add=NET_ADMIN",
-      "--security-opt", "seccomp=unconfined"
+      "--security-opt=seccomp=unconfined"
     ],
-    "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash"
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "bash",
+          "terminal.integrated.profiles.linux": {
+            "bash": {
+              "path": "/bin/bash"
+            }
+          }
+        },
+        "extensions": [
+          "ms-vscode.cpptools",
+          "ms-python.python",
+          "esbenp.prettier-vscode"
+        ]
+      }
     },
-    "extensions": [
-      "ms-vscode.cpptools",
-      "ms-python.python",
-      "esbenp.prettier-vscode"
-    ],
-    "forwardPorts": [
-      3000
-    ],
     "postCreateCommand": "echo 'Welcome to your Ubuntu Codespace with UFW running as root with NET_ADMIN capability!'"
-  }
-  
+}
