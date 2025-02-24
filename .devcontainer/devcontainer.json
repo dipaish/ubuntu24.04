@@ -1,0 +1,18 @@
+{
+    "name": "Ubuntu Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "settings": {
+      // Customize VS Code settings (for example, set the terminal shell)
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      // List any VS Code extensions you’d like pre-installed
+      "ms-python.python",
+      "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "echo 'Welcome to your Ubuntu Codespace!'"
+  }
+  
