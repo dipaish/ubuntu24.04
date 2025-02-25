@@ -5,7 +5,7 @@ To run an Ubuntu-based environment in a GitHub Codespace using a Dev Container. 
 Follow the steps below to set up a GitHub Codespace. Codespaces offer a cloud-based development environment that makes it easy to get started without any local setup.
 
 ## Step 1: Fork this repository to your github account. 
-1. Clone this repository to your own GitHub account by clicking the "Fork" button in the top right corner of the repository page.
+1. Clone [this repository](https://github.com/dipaish/ubuntu24.04/) to your own GitHub account by clicking the "Fork" button in the top right corner of the repository page.
 
 ## Step 2: Create a Codespace
 
